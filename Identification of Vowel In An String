@@ -1,0 +1,7 @@
+string = input("Enter a string: ")
+vowels = set("aeiouAEIOU")
+count = 0
+for char in string:
+  if char in vowels:
+    count += 1
+print("There are", count, "vowels in the string:",string)
